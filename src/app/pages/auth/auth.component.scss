@@ -1,0 +1,43 @@
+@import "../../../assets/variables.scss";
+
+.auth-page {
+   width: 100vw;
+   height: calc(100vh - #{$header-height});
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.auth-panel {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+
+   span {
+      width: 250px;
+      text-align: center;
+   }
+}
+
+.button-panel {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 15px;
+
+   button {
+      appearance: none;
+      width: 140px;
+      height: 35px;
+      padding: 0 14px;
+      border: 1px solid #D6D7D9;
+      border-radius: 4px;
+      outline: none;
+      color: #fff;
+      background-color: #5180B7;
+      cursor: pointer;
+   }
+}
